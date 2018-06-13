@@ -38,4 +38,8 @@ brew install ruby`
 * **Bundler**
 	Bundler is a **package manager** used to install all the dependencies of Jekyll.
 	Run : `sudo gem install bundler`
-	
+
+* **Now install Jekyll**
+	Run : `gem install bundler jekyll`
+
+** You are ready to go. :D**	
