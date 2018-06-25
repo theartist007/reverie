@@ -22,3 +22,15 @@ Here's a quick guide about how you would be setting up Jekyll locally.
 * Ruby version 2.2.5 or above, including all development headers (ruby installation can be checked by running `ruby -v`)
 * RubyGems (which you can check by running `gem -v`)
 * GCC and Make (in case your system doesn’t have them installed, which you can check by running `gcc -v`,`g++ -v` and `make -v` in your system’s command line interface)
+
+### Install on MacOS
+
+Since I use a Mac, I will be writing the installation process for UNIX systems. But don't worry, almost all the commands will work for Linux systems too. I will mention the commands where they don't work, and will also give the Linux alternative for the same.
+
+* **Ruby**
+  Ruby comes pre-installed with all OSX systems. But you can't really work with the system-installed Ruby (access will be denied in many cases). **So we are going to install a personal version of Ruby using Homebrew.**
+ 
+  * But before that, you need to install command-line tools for native extensions : `xcode-select --install`
+  * Now run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install ruby`
+ This should install the latest version of Ruby in your OSX.
