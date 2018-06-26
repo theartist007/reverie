@@ -18,3 +18,7 @@ Jekyll happens to be the engine behind **GitHub Pages**, so you can host your pr
 Here's a quick guide about how you would be setting up Jekyll locally.
 
 ### Requirements
+
+* Ruby version 2.2.5 or above, including all development headers (ruby installation can be checked by running `ruby -v`)
+* RubyGems (which you can check by running `gem -v`)
+* GCC and Make (in case your system doesn’t have them installed, which you can check by running `gcc -v`,`g++ -v` and `make -v` in your system’s command line interface)
