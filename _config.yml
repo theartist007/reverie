@@ -15,7 +15,7 @@ description: "Reverie is a personal blog to give my thoughts a place to live."
 tagline: "The letters you know. The stories you don't."
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: /Reverie
+baseurl: /reverie
 
 sass:
   sass_dir: _sass
@@ -26,11 +26,11 @@ url: "https://theartist007.github.io"
 # Site navigation - each item must have a title and a url.
 navigation:
 - text: Home
-  url: /Reverie/
+  url: /reverie/
 - text: About
-  url: /Reverie/about/
+  url: /reverie/about/
 - text: Archives
-  url: /Reverie/tags/
+  url: /reverie/tags/
 
 # The shortname for your Disqus site to enable comments.
 disqus:
