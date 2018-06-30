@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "Reverie"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Reverie is a personal blog to give my thoughts a place to live."
+
+# Tagline near the site title
+tagline: "The letters you know. The stories you don't."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl: /Reverie
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://theartist007.github.io"
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /Reverie/
+- text: About
+  url: /Reverie/about/
+- text: Archives
+  url: /Reverie/tags/
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "Anuprava Chatterjee"
+author_bio: "Anuprava is an IITian,programmer, bibliophile, football fanatic, and loves to write his heart out."
+author_url:  "http://justgoodthemes.com"
+author_location: "Kharagpur,India"
+author_image: /images/authorimage.png
+
+# Sidebar Add banner
+banner_url: "http://theartist007.github.io"
+banner_image: images/banner.jpg
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "anuprava.chatterjee.10"
+googleplus_username: "+username"
+github_username: "theartist007"
+codepen_username: "username"
+dribbble_uername: "username"
+medium_username: "@anupravachatterjee"
+instagram_username: "shelfish_artist"
+pinterest_username: "username"
+linkedin_username: "theartist007"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    auto_ids: false
