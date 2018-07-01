@@ -13,3 +13,8 @@ You create your content as text files (**Markdown**), and organize them into fol
 
 Jekyll happens to be the engine behind **GitHub Pages**, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.
 
+## Installation
+
+Here's a quick guide about how you would be setting up Jekyll locally.
+
+### Requirements
