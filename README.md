@@ -1,2 +1,5 @@
 # Reverie
-Personal blog to give my thoughts a place to live.
+
+# What is it ?
+
+**Reverie is my personal blog; it is just that my thoughts wanted a place to live.**
